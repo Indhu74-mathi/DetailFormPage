@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.header {
+    background-color: yellow;
+    text-align: center;
+    padding: 1rem;
+    color: black;
+}
+
+.content {
+    text-align: center;
+    padding: 2rem;
+}
+
+.container{
+    width: 100%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+}
+.col-1{
+    width: 400px;
+    padding: 30px;
+    margin-left: 20px;
+	border: 1px solid #eeeeee;
+	border-radius: 10px;
+	background-color: #003b5b;
+
+}
+.col-2{
+    width: 400px;
+    margin-right: 20px;
+    padding: 50px;
+	border: 1px solid #eeeeee;
+	border-radius: 10px;
+	/* background-color: #003b5b; */
+}
+
+h4{
+	margin-bottom: 10px;
+	font-size: 24px;
+	color: yellow;
+}
+input{
+	width: 70%;
+	padding: 10px;
+	margin-bottom: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+#status{
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+textarea{
+	width: 70%;
+	padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+#submit{
+	border: none;
+	background-color: yellow;
+	color: rgb(29, 29, 29);
+    font-weight: bold;
+    font-size: 20px;
+	width: 300px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+#submit:hover{
+	background-color: #f0d805;
+}
+
+.info div {
+    background-color: yellow;
+    color: black;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+.col-2 {
+    width: 400px;
+    margin-right: 20px;
+    padding: 50px;
+    border: 2px solid transparent; 
+    border-radius: 10px;
+    position: relative; 
+    z-index: 0; 
+    overflow: hidden;
+    animation: borderAnimation 6s linear infinite;
+}
+
+@keyframes borderAnimation {
+    0% {
+        border-color: #fbc531;
+    }
+    25% {
+        border-color: #e9e9e9;
+    }
+    50% {
+        border-color: #3686d1;
+    }
+    75% {
+        border-color: #7c0bda;
+        border-color: #DD3777  (flips)
+}
+}
